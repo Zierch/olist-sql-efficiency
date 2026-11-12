@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="6.5in" height="4.14in" viewBox="0 0 650 414">
+<defs>
+<pattern id="censored" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#999999"/><line x1="0" y1="0" x2="0" y2="6" stroke="#FFFFFF" stroke-width="2.4"/></pattern>
+</defs>
+<rect width="650" height="414" fill="#FFFFFF"/>
+<text x="325.0" y="30.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="15.0" fill="#000000" text-anchor="middle" font-weight="bold">Median server-side execution time by workload and index configuration</text>
+<line x1="62" y1="308.0" x2="632.0" y2="308.0" stroke="#D9D9D9" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="55.0" y="311.6" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="11" fill="#000000" text-anchor="end" font-weight="normal">0.1</text>
+<line x1="62" y1="269.7" x2="632.0" y2="269.7" stroke="#D9D9D9" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="55.0" y="273.3" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="11" fill="#000000" text-anchor="end" font-weight="normal">1</text>
+<line x1="62" y1="231.3" x2="632.0" y2="231.3" stroke="#D9D9D9" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="55.0" y="234.9" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="11" fill="#000000" text-anchor="end" font-weight="normal">10</text>
+<line x1="62" y1="193.0" x2="632.0" y2="193.0" stroke="#D9D9D9" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="55.0" y="196.6" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="11" fill="#000000" text-anchor="end" font-weight="normal">100</text>
+<line x1="62" y1="154.7" x2="632.0" y2="154.7" stroke="#D9D9D9" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="55.0" y="158.3" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="11" fill="#000000" text-anchor="end" font-weight="normal">1,000</text>
+<line x1="62" y1="116.3" x2="632.0" y2="116.3" stroke="#D9D9D9" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="55.0" y="119.9" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="11" fill="#000000" text-anchor="end" font-weight="normal">10,000</text>
+<line x1="62" y1="78.0" x2="632.0" y2="78.0" stroke="#D9D9D9" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="55.0" y="81.6" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="11" fill="#000000" text-anchor="end" font-weight="normal">100,000</text>
+<line x1="62" y1="78" x2="62" y2="308.0" stroke="#000000" stroke-width="1.4"/>
+<line x1="62" y1="308.0" x2="632.0" y2="308.0" stroke="#000000" stroke-width="1.4"/>
+<rect x="66.0" y="218.6" width="3.5" height="89.4" fill="#000000"/>
+<rect x="71.0" y="217.0" width="3.5" height="91.0" fill="#D55E00"/>
+<rect x="76.1" y="217.0" width="3.5" height="91.0" fill="#0072B2"/>
+<rect x="81.2" y="212.0" width="3.5" height="96.0" fill="#008A3E"/>
+<rect x="86.2" y="215.0" width="3.5" height="93.0" fill="#7B4EA8"/>
+<text x="83.1" y="317.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 83.1 317.0)">W1.1</text>
+<rect x="97.6" y="160.4" width="3.5" height="147.6" fill="#000000"/>
+<rect x="102.7" y="160.0" width="3.5" height="148.0" fill="#D55E00"/>
+<rect x="107.8" y="162.1" width="3.5" height="145.9" fill="#0072B2"/>
+<rect x="112.8" y="155.7" width="3.5" height="152.3" fill="#008A3E"/>
+<rect x="117.9" y="158.4" width="3.5" height="149.6" fill="#7B4EA8"/>
+<text x="114.7" y="317.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 114.7 317.0)">W1.2</text>
+<rect x="129.3" y="204.2" width="3.5" height="103.8" fill="#000000"/>
+<rect x="134.4" y="203.7" width="3.5" height="104.3" fill="#D55E00"/>
+<rect x="139.4" y="219.0" width="3.5" height="89.0" fill="#0072B2"/>
+<rect x="144.5" y="214.9" width="3.5" height="93.1" fill="#008A3E"/>
+<rect x="149.6" y="217.7" width="3.5" height="90.3" fill="#7B4EA8"/>
+<text x="146.4" y="317.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 146.4 317.0)">W1.3</text>
+<rect x="161.0" y="212.9" width="3.5" height="95.1" fill="#000000"/>
+<rect x="166.0" y="210.5" width="3.5" height="97.5" fill="#D55E00"/>
+<rect x="171.1" y="213.1" width="3.5" height="94.9" fill="#0072B2"/>
+<rect x="176.2" y="208.3" width="3.5" height="99.7" fill="#008A3E"/>
+<rect x="181.2" y="211.5" width="3.5" height="96.5" fill="#7B4EA8"/>
+<text x="178.1" y="317.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 178.1 317.0)">W2.1</text>
+<text x="185.9" y="324.9" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 185.9 324.9)">non-SARG</text>
+<text x="193.8" y="332.7" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 193.8 332.7)">month</text>
+<rect x="192.6" y="219.9" width="3.5" height="88.1" fill="#000000"/>
+<rect x="197.7" y="216.4" width="3.5" height="91.6" fill="#D55E00"/>
+<rect x="202.8" y="255.6" width="3.5" height="52.4" fill="#0072B2"/>
+<rect x="207.8" y="215.5" width="3.5" height="92.5" fill="#008A3E"/>
+<rect x="212.9" y="217.7" width="3.5" height="90.3" fill="#7B4EA8"/>
+<text x="209.7" y="317.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 209.7 317.0)">W2.2</text>
+<text x="217.6" y="324.9" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 217.6 324.9)">SARG</text>
+<text x="225.4" y="332.7" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 225.4 332.7)">month</text>
+<rect x="224.3" y="217.1" width="3.5" height="90.9" fill="#000000"/>
+<rect x="229.4" y="212.9" width="3.5" height="95.1" fill="#D55E00"/>
+<rect x="234.4" y="225.6" width="3.5" height="82.4" fill="#0072B2"/>
+<rect x="239.5" y="215.0" width="3.5" height="93.0" fill="#008A3E"/>
+<rect x="244.6" y="217.5" width="3.5" height="90.5" fill="#7B4EA8"/>
+<text x="241.4" y="317.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 241.4 317.0)">W2.3</text>
+<text x="249.2" y="324.9" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 249.2 324.9)">non-SARG</text>
+<text x="257.1" y="332.7" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 257.1 332.7)">year</text>
+<rect x="256.0" y="217.7" width="3.5" height="90.3" fill="#000000"/>
+<rect x="261.0" y="218.1" width="3.5" height="89.9" fill="#D55E00"/>
+<rect x="266.1" y="223.9" width="3.5" height="84.1" fill="#0072B2"/>
+<rect x="271.2" y="214.8" width="3.5" height="93.2" fill="#008A3E"/>
+<rect x="276.2" y="217.3" width="3.5" height="90.7" fill="#7B4EA8"/>
+<text x="273.1" y="317.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 273.1 317.0)">W2.4</text>
+<text x="280.9" y="324.9" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 280.9 324.9)">SARG</text>
+<text x="288.8" y="332.7" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 288.8 332.7)">year</text>
+<rect x="287.6" y="171.6" width="3.5" height="136.4" fill="#000000"/>
+<rect x="292.7" y="172.0" width="3.5" height="136.0" fill="#D55E00"/>
+<rect x="297.8" y="172.7" width="3.5" height="135.3" fill="#0072B2"/>
+<rect x="302.8" y="167.7" width="3.5" height="140.3" fill="#008A3E"/>
+<rect x="307.9" y="171.0" width="3.5" height="137.0" fill="#7B4EA8"/>
+<text x="304.7" y="317.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 304.7 317.0)">W3.1</text>
+<rect x="319.3" y="173.2" width="3.5" height="134.8" fill="#000000"/>
+<rect x="324.4" y="181.7" width="3.5" height="126.3" fill="#D55E00"/>
+<rect x="329.4" y="193.6" width="3.5" height="114.4" fill="#0072B2"/>
+<rect x="334.5" y="183.5" width="3.5" height="124.5" fill="#008A3E"/>
+<rect x="339.6" y="185.7" width="3.5" height="122.3" fill="#7B4EA8"/>
+<text x="336.4" y="317.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 336.4 317.0)">W4.1</text>
+<text x="344.2" y="324.9" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 344.2 324.9)">JOIN</text>
+<rect x="351.0" y="173.0" width="3.5" height="135.0" fill="#000000"/>
+<rect x="356.0" y="180.7" width="3.5" height="127.3" fill="#D55E00"/>
+<rect x="361.1" y="194.4" width="3.5" height="113.6" fill="#0072B2"/>
+<rect x="366.2" y="184.3" width="3.5" height="123.7" fill="#008A3E"/>
+<rect x="371.2" y="185.9" width="3.5" height="122.1" fill="#7B4EA8"/>
+<text x="368.1" y="317.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 368.1 317.0)">W4.2</text>
+<text x="375.9" y="324.9" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 375.9 324.9)">IN</text>
+<rect x="382.6" y="172.6" width="3.5" height="135.4" fill="#000000"/>
+<rect x="387.7" y="181.2" width="3.5" height="126.8" fill="#D55E00"/>
+<rect x="392.8" y="193.8" width="3.5" height="114.2" fill="#0072B2"/>
+<rect x="397.8" y="184.3" width="3.5" height="123.7" fill="#008A3E"/>
+<rect x="402.9" y="185.9" width="3.5" height="122.1" fill="#7B4EA8"/>
+<text x="399.7" y="317.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 399.7 317.0)">W4.3</text>
+<text x="407.6" y="324.9" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 407.6 324.9)">EXISTS</text>
+<rect x="414.3" y="106.5" width="3.5" height="201.5" fill="#000000"/>
+<rect x="419.4" y="107.1" width="3.5" height="200.9" fill="#D55E00"/>
+<rect x="424.4" y="91.3" width="3.5" height="216.7" fill="url(#censored)"/>
+<text x="426.2" y="87.3" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="8" fill="#555555" text-anchor="middle" font-weight="normal">&gt;= limit</text>
+<rect x="429.5" y="105.3" width="3.5" height="202.7" fill="#008A3E"/>
+<rect x="434.6" y="212.7" width="3.5" height="95.3" fill="#7B4EA8"/>
+<text x="431.4" y="317.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 431.4 317.0)">W5.1</text>
+<text x="439.2" y="324.9" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 439.2 324.9)">LEFT JOIN</text>
+<rect x="446.0" y="192.7" width="3.5" height="115.3" fill="#000000"/>
+<rect x="451.0" y="192.5" width="3.5" height="115.5" fill="#D55E00"/>
+<rect x="456.1" y="196.0" width="3.5" height="112.0" fill="#0072B2"/>
+<rect x="461.2" y="191.4" width="3.5" height="116.6" fill="#008A3E"/>
+<rect x="466.2" y="194.1" width="3.5" height="113.9" fill="#7B4EA8"/>
+<text x="463.1" y="317.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 463.1 317.0)">W5.2</text>
+<text x="470.9" y="324.9" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 470.9 324.9)">NOT IN</text>
+<rect x="477.6" y="191.8" width="3.5" height="116.2" fill="#000000"/>
+<rect x="482.7" y="193.5" width="3.5" height="114.5" fill="#D55E00"/>
+<rect x="487.8" y="196.9" width="3.5" height="111.1" fill="#0072B2"/>
+<rect x="492.8" y="191.5" width="3.5" height="116.5" fill="#008A3E"/>
+<rect x="497.9" y="193.2" width="3.5" height="114.8" fill="#7B4EA8"/>
+<text x="494.7" y="317.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 494.7 317.0)">W5.3</text>
+<text x="502.6" y="324.9" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 502.6 324.9)">NOT EX</text>
+<rect x="509.3" y="156.5" width="3.5" height="151.5" fill="#000000"/>
+<rect x="514.4" y="156.8" width="3.5" height="151.2" fill="#D55E00"/>
+<rect x="519.4" y="152.3" width="3.5" height="155.7" fill="#0072B2"/>
+<rect x="524.5" y="153.2" width="3.5" height="154.8" fill="#008A3E"/>
+<rect x="529.6" y="153.8" width="3.5" height="154.2" fill="#7B4EA8"/>
+<text x="526.4" y="317.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 526.4 317.0)">W6.1</text>
+<text x="534.2" y="324.9" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 534.2 324.9)">flat JOIN</text>
+<rect x="541.0" y="156.1" width="3.5" height="151.9" fill="#000000"/>
+<rect x="546.0" y="156.2" width="3.5" height="151.8" fill="#D55E00"/>
+<rect x="551.1" y="151.9" width="3.5" height="156.1" fill="#0072B2"/>
+<rect x="556.2" y="157.1" width="3.5" height="150.9" fill="#008A3E"/>
+<rect x="561.2" y="155.7" width="3.5" height="152.3" fill="#7B4EA8"/>
+<text x="558.1" y="317.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 558.1 317.0)">W6.2</text>
+<text x="565.9" y="324.9" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 565.9 324.9)">derived</text>
+<rect x="572.6" y="167.6" width="3.5" height="140.4" fill="#000000"/>
+<rect x="577.7" y="166.0" width="3.5" height="142.0" fill="#D55E00"/>
+<rect x="582.8" y="164.5" width="3.5" height="143.5" fill="#0072B2"/>
+<rect x="587.8" y="180.6" width="3.5" height="127.4" fill="#008A3E"/>
+<rect x="592.9" y="180.4" width="3.5" height="127.6" fill="#7B4EA8"/>
+<text x="589.7" y="317.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 589.7 317.0)">W7.1</text>
+<rect x="604.3" y="191.4" width="3.5" height="116.6" fill="#000000"/>
+<rect x="609.4" y="190.2" width="3.5" height="117.8" fill="#D55E00"/>
+<rect x="614.4" y="275.1" width="3.5" height="32.9" fill="#0072B2"/>
+<rect x="619.5" y="193.3" width="3.5" height="114.7" fill="#008A3E"/>
+<rect x="624.6" y="192.7" width="3.5" height="115.3" fill="#7B4EA8"/>
+<text x="621.4" y="317.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="9.5" fill="#000000" text-anchor="end" font-weight="normal" transform="rotate(-45 621.4 317.0)">W8.1</text>
+<text x="22.0" y="193.0" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="11" fill="#000000" text-anchor="middle" font-weight="normal" transform="rotate(-90 22.0 193.0)">Execution time (ms, log scale)</text>
+<text x="347.0" y="384.7" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="11" fill="#000000" text-anchor="middle" font-weight="normal">Query workload</text>
+<rect x="122.2" y="393.7" width="11" height="11" fill="#000000"/>
+<text x="137.2" y="402.7" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="11" fill="#000000" text-anchor="start" font-weight="normal">C0 no index</text>
+<rect x="210.0" y="393.7" width="11" height="11" fill="#D55E00"/>
+<text x="225.0" y="402.7" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="11" fill="#000000" text-anchor="start" font-weight="normal">C1 FK only</text>
+<rect x="295.9" y="393.7" width="11" height="11" fill="#0072B2"/>
+<text x="310.9" y="402.7" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="11" fill="#000000" text-anchor="start" font-weight="normal">C2 single-col</text>
+<rect x="388.9" y="393.7" width="11" height="11" fill="#008A3E"/>
+<text x="403.9" y="402.7" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="11" fill="#000000" text-anchor="start" font-weight="normal">C3 composite</text>
+<rect x="483.7" y="393.7" width="11" height="11" fill="#7B4EA8"/>
+<text x="498.7" y="402.7" font-family="Times New Roman, Liberation Serif, Nimbus Roman, serif" font-size="11" fill="#000000" text-anchor="start" font-weight="normal">C4 covering</text>
+</svg>

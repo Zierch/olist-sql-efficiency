@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or these measurements, please cite the paper."
+title: "Reproduction package: SQL query efficiency on the Olist Brazilian E-Commerce dataset"
+authors:
+  - family-names: Parlika
+    given-names: Rizky
+  - family-names: Setiawan
+    given-names: Mohammad Yuan
+  - family-names: Shalahuddin
+    given-names: Nabil Faruq
+  - family-names: Rasyad
+    given-names: Mochamad Ghifari
+type: software
+license: MIT
+repository-code: "https://github.com/Zierch/olist-sql-efficiency"
+keywords:
+  - query optimization
+  - indexing
+  - SQL
+  - MariaDB
+  - Olist

@@ -1,0 +1,5 @@
+query_id,label_indo,SARGable,tingkat_selektivitas,C0,C1,C2,C3,C4,percepatan_C2_vs_C0,percepatan_C4_vs_C0
+W2.1 non-SARG month,W2.1 non-SARG bulan,non,selektif (bulan),30.27,35.01,29.98,39.97,32.88,0.99,1.09
+W2.2 SARG month,W2.2 SARG bulan,ya,selektif (bulan),19.89,24.56,2.33,25.83,22.67,0.12,1.14
+W2.3 non-SARG year,W2.3 non-SARG tahun,non,tidak selektif (tahun),23.51,30.27,14.14,26.65,22.96,0.60,0.98
+W2.4 SARG year,W2.4 SARG tahun,ya,tidak selektif (tahun),22.62,22.20,15.67,27.04,23.25,0.69,1.03
